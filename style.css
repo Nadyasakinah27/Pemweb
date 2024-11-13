@@ -1,0 +1,123 @@
+        /* Global Style */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      
+      /* Header */
+             /* Header styling */
+             header {
+              background-color: plum;
+              color: #fff;
+              padding: 20px 0;
+              overflow: hidden;
+              white-space: nowrap;
+              position: relative;
+              font-size: 30px;
+          }
+  
+          /* Animasi tulisan berjalan */
+          .marquee {
+              display: inline-block;
+              padding-left: 50%;
+              animation: marquee 15s linear infinite;
+          }
+  
+          /* Keyframes untuk animasi */
+          @keyframes marquee {
+              0% {
+                  transform: translateX(100%);
+              }
+              100% {
+                  transform: translateX(-100%);
+              }
+          }
+
+      /* navbar */
+      .navbar {
+          background-color: #d630d9;
+          color: white;
+          text-align: left;
+          padding: 10px;
+          font-size: 24px;
+          display: flex;
+          justify-content: right;
+          align-items: center;
+      }
+
+      .navbar nav a {
+          color: white;
+          margin-left: 15px;
+          text-decoration: none;
+      }
+
+      
+
+      /* Body */
+     #main-content {
+    background-image: url('path/gambar.jpg'); /* Ganti 'path/gambar.jpg' dengan URL gambar kamu */
+    background-size: cover;      /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat; /* Agar gambar tidak berulang */
+}
+
+
+      /* Sidebar */
+      .sidebar {
+          background-color: plum;
+          padding: 15px;
+          color: white;
+          width: 20%;
+          float: left;
+          height: calc(100vh - 90px);
+          font-size: 18px;
+      }
+
+      .sidebar .box {
+          background-color: #ff69b4;
+          margin: 10px 0;
+          padding: 10px;
+          text-align: center;
+          color: white;
+          font-weight: bold;
+      }
+
+      /* Main Content */
+      .main-content {
+          background-color: lavenderblush;
+          padding: 15px;
+          width: 80%;
+          float: left;
+          color: black;
+          height: calc(100vh - 90px);
+      }
+      .main-content h2 {
+        color: black;
+        text-align: center;
+      }
+      .main-content p {
+        color: black;
+        text-align: center;
+      }
+      .main-content .box {
+          background-color: #ff69b4;
+          width: 30%;
+          margin: 10px;
+          padding: 20px;
+          text-align: center;
+          color: white;
+          font-weight: bold;
+          display: inline-block;
+      }
+
+      /* Footer */
+      .footer {
+          background-color: #d630d9;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          clear: both;
+          font-size: 14px;
+          
+      }
